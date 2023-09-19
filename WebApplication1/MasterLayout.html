@@ -4,6 +4,43 @@
     <meta charset="utf-8" />
     <title>MasterLayout</title>
     <link href="MasterLayout2.css" rel="stylesheet" />
+    <style type="text/css">
+        section{
+            width:100%;
+            background-color:aqua;
+            height:50px;
+        }
+        article{
+            background-color:lightgray;
+            width:100%;
+        }
+        .products{
+            padding:5px;
+
+        }
+        #SP{
+           font-family:Arial;
+           font-size:medium;
+           text-align:center;
+        }
+        #prod-table {
+            background-color: whitesmoke;
+            border-spacing: 10px;
+            width: 100%;
+        }
+        #introduce {
+            width: 25%;
+            border: 1px solid lightgrey;
+            border-radius: 8px;
+        }
+        #pro-lable{
+
+        }
+
+
+
+
+    </style>
 </head>
 
 <body>
@@ -35,11 +72,42 @@
         </header>
 
     </div>
-
+    
     <div class="main-content">
-       <section>Slider</section>
+        <section>SliderBlocks</section>
+
+        <article>
+            <div class="products">
+                <h1 id="SP"> iPHONE</h1>
+                <table id="prod-table">
+                    <tr>
+                        <td id="introduce">
+                            <img id="pro-lable" src="https://shopdunk.com/images/uploaded/icon/chao-tan-sv.png" /><br />
+                            <img id="pro-img" src="https://shopdunk.com/images/thumbs/0007808_iphone-14-pro-max-128gb_240.png" /><br />
+                            <p id="pro-name">iPhone 14 Pro Max 128GB</p>
+                            <p id="pro-price">26.150.000VND</p>
+                            <p id="pro-oldprice">34.990.000VND</p>
+                            <p id="discount">-25%</p>
+
+                        </td>
+
+
+                        <td id="introduce">
+                            <img id="pro-lable" src="https://shopdunk.com/images/uploaded/icon/chao-tan-sv.png" /><br />
+                            <img id="pro-img" src="https://shopdunk.com/images/thumbs/0007808_iphone-14-pro-max-128gb_240.png" /><br />
+                            <p id="pro-name">iPhone 14 Pro Max 128GB</p>
+                            <p id="pro-price">26.150.000VND</p>
+                            <p id="pro-oldprice">34.990.000VND</p>
+                            <p id="discount">-25%</p>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+
         <aside>Aside 1</aside>
-        <article>Products</article>
+       
         <aside>Aside 2</aside>
     </div>
      
